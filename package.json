@@ -11,9 +11,7 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --noEmit",
-    "prepare": "husky install",
-    "pre-commit": "yarn pretty-quick --staged",
-    "pre-push": "yarn type-check"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/cors": "2.x",
