@@ -61,8 +61,8 @@ const YesOrNo = ({ initialResult }: { initialResult: string }) => {
           </Button>
         </p>
         <p>
-          <Link href="/">
-            <a className="ui black button basic">Volver al inicio</a>
+          <Link href="/" className="ui black button basic">
+            Volver al inicio
           </Link>
         </p>
       </div>

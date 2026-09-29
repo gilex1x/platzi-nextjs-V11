@@ -22,9 +22,7 @@ const HomePage = ({ productList }: { productList: TProduct[] }) => {
     <Layout>
       <KawaiiHeader />
       <section>
-        <Link href="/yes-or-no">
-          <a>¿Deberia comer un avo hoy?</a>
-        </Link>
+        <Link href="/yes-or-no">¿Deberia comer un avo hoy?</Link>
       </section>
       <ProductList products={productList} />
       <style jsx>{`
